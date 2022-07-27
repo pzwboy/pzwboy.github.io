@@ -369,6 +369,19 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		
 		<!-- 背景音乐2.0 -->
 		<script>
+	function play() {
+		var audio = document.getElementById('music');
+		if (audio.paused) {
+			audio.play();
+			document.getElementById('musicImg').src="./assets/images/play.png";
+		}else{
+			audio.pause();
+			audio.currentTime = 0;//音乐从头播放
+			document.getElementById('musicImg').src="/assets/images/stop.png";
+		}
+	}
+	</script>
+		<script>
         //自动播放背景音乐
     var src = "//music.163.com/song/media/outer/url?id=445154429.mp3";
     var body = document.getElementsByTagName("body")[0];
