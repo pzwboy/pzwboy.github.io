@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width">
+    <title>Pzwboy 个人网站|Xash 3D（半衰期1代）iOS版本安装指南</title>
+    <link rel="stylesheet" href="/css/mdui.css"/>
+  </head>
+  <body class="mdui-theme-primary-blue-grey mdui-theme-accent-pink mdui-theme-layout-auto">
+    <div class="mdui-appbar">
+        <div class="mdui-toolbar mdui-color-theme">
+          <a class="mdui-typo-title">Xash 3D（半衰期1代）iOS版本安装指南</a>
+          <div class="mdui-toolbar-spacer"></div>
+		  <a href="/" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '回到主页'}"><i class="mdui-icon material-icons">&#xe88a;</i></a>
+        </div>
+      </div>
+	  <div class="container p-typo mdui-container mdui-typo">
+	  <br>
+<p>已更新文章，因为报错、卡控制台等原因，已删除自签及AppSync Unified（部分iOS版本可能能用）安装方式</p>
+<h2>准备工作</h2>
+<ul>
+<li><p>iOS设备已进行越狱（可选）</p>
+</li>
+<li><p>已安装Trollstore</p>
+</li>
+</ul>
+<h4>二选一</h4>
+<ul>
+<li><p>拥有Mac或Windows设备并安装好<a href="https://www.i4.cn/">爱思助手</a>（越狱后）</p>
+</li>
+<li><p>iOS设备中已安装Filza</p>
+</li>
+</ul>
+<h4>Filza安装方式</h4>
+<h5>越狱</h5>
+<p>打开Sileo或Cydia，搜索并安装<code>Filza File Manager</code>即可</p>
+<h5>仅安装了Trollstore</h5>
+<p><a href="http://pzwboy.ysepan.com">Pzwboy 资源站</a></p>
+<p>iOS游戏--&gt;Filza_3.9.5-文件管理器.ipa</p>
+<p>安装即可</p>
+<h2>1.安装xash引擎启动器</h2>
+<h3>ipa安装包下载</h3>
+<p><a href="https://cloud.189.cn/web/share?code=RBFjquraM73i">天翼云盘</a>（访问码：kw7a）</p>
+<p><a href="https://www.123pan.com/s/9s7uVv-tlfiH.html">123云盘</a></p>
+<h3>安装</h3>
+<p>未越狱的设备根据iOS版本自行在网上找安装方式（如<code>Trollstar</code>等安装器）</p>
+<p>越狱后通过Sileo或Cydia搜索<code>TrollStore Helper</code>，根据提示安装TrollStore（由于TrollStore Helper是通过Github的官方仓库来下载最新版本，所以部分地区的网络需全程打开V啥啥，不然会报错），再在软件中导入安装ipa即可</p>
+<h2>2.《半衰期》数据包导入</h2>
+<h3>数据包下载</h3>
+<p>提取自零售年度版，已更改访问权限。</p>
+<p><a href="https://cloud.189.cn/web/share?code=YnuuemZvi2qe">天翼云盘</a>（访问码：tax5）</p>
+<p><a href="https://www.123pan.com/s/9s7uVv-zlfiH.html">123云盘</a></p>
+<h3>导入</h3>
+<h4>iOS设备通过Filza</h4>
+<p>打开Filza，找到<code>/var/mobile/Containers/Data/Application/xash3d-ios/Documents</code>，复制iOS专用数据包到此处即可</p>
+<h4>爱思助手（即PC）</h4>
+<p>在Sileo或Cydia中添加搬运工源🇨🇳<code>https://byg.iosios.net/</code>后，搜索并安装<code>AFC2电脑访问手机文件</code>，在爱思助手中的“文件管理”--&gt;“文件系统（越狱）”中找到<code>/var/mobile/Containers/Data/Application/xash3d-ios/Documents</code>，复制iOS专用数据包到此处即可</p>
+<h2>Hud过小解决方案</h2>
+<p>在启动器输入框中加入<code>+hud_scale 2</code>即可</p>
+<h2>Gearbox Software 高清模型补丁</h2>
+<p><a href="https://www.lanzv.com/igkJ21mfmkab">蓝奏云</a></p>
+<p>复制到valve文件夹内使用</p>
+<h2>《半衰期：蓝色行动》及《半衰期：针锋相对》包</h2>
+<p><a href="https://www.123pan.com/s/9s7uVv-L6fiH.html">123云盘</a></p>
+<h3>启动项</h3>
+<p>蓝色行动：<code>-game bshift</code></p>
+<p>针锋相对：<code>-game gearbox</code></p>
+<h2>最后，玩得愉快！</h2>
+
+<!--Waline 开始-->
+<div id="waline"></div>
+  <script type="module">
+    import { init } from '/waline/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://waline.pzwboy.eu.org',
+    });
+  </script>
+<!--Waline 结束-->	
+<!-- Waline 样式 开始 -->
+  <link rel="stylesheet" href="/waline/waline.css"/>
+<!-- Waline 样式 结束 -->
+	</div>
+	  <script src="/js/mdui.js"></script>
+	<footer  class="container p-typo mdui-container mdui-typo">
+    <br><p style="text-align:center;" class="copyright">&copy; 2020-<span id="current-year">
+	<script>document.getElementById("current-year").innerHTML=(new Date).getFullYear()</script>
+	Pzwboy.</p><br>
+	</footer>
+  </body>
+</html>

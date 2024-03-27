@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width">
+    <title>Pzwboy 个人网站|Goddess of Victory: Nikke 无需加速器直接登录</title>
+    <link rel="stylesheet" href="/css/mdui.css"/>
+  </head>
+  <body class="mdui-theme-primary-blue-grey mdui-theme-accent-pink mdui-theme-layout-auto">
+    <div class="mdui-appbar">
+        <div class="mdui-toolbar mdui-color-theme">
+          <a class="mdui-typo-title">Goddess of Victory: Nikke 无需加速器直接登录</a>
+          <div class="mdui-toolbar-spacer"></div>
+		  <a href="/" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '回到主页'}"><i class="mdui-icon material-icons">&#xe88a;</i></a>
+        </div>
+      </div>
+	  <div class="container p-typo mdui-container mdui-typo">
+<h2>Windows</h2>
+<p>直接下载并打开
+	<a href="/file/nikke_host.bat">补丁</a>即可
+</p>
+<h2>其他平台</h2>
+<p>手动修改host，网上有教程</p>
+<p>在host中添加以下文字：</p>
+<pre>
+<code>
+43.152.65.112 jp-lobby.nikke-kr.com 
+43.152.65.112 kr-lobby.nikke-kr.com 
+43.152.65.112 global-lobby.nikke-kr.com 
+43.152.65.112 sea-lobby.nikke-kr.com 
+43.152.65.112 hmt-lobby.nikke-kr.com 
+43.152.65.112 jp-match.nikke-kr.com 
+43.152.65.112 us-match.nikke-kr.com 
+43.152.65.112 kr-match.nikke-kr.com 
+43.152.65.112 global-match.nikke-kr.com 
+43.152.65.112 sea-match.nikke-kr.com 
+43.152.65.112 hmt-match.nikke-kr.com 
+43.152.65.112 aws-na.intlgame.com 
+34.104.32.16 cloud.nikke-kr.com 
+43.152.65.112 jp-lobby.nikke-kr.com 
+43.152.65.112 kr-lobby.nikke-kr.com 
+43.152.65.112 global-lobby.nikke-kr.com 
+43.152.65.112 sea-lobby.nikke-kr.com 
+43.152.65.112 hmt-lobby.nikke-kr.com 
+43.152.65.112 jp-match.nikke-kr.com 
+43.152.65.112 us-match.nikke-kr.com 
+43.152.65.112 kr-match.nikke-kr.com 
+43.152.65.112 global-match.nikke-kr.com 
+43.152.65.112 sea-match.nikke-kr.com 
+43.152.65.112 hmt-match.nikke-kr.com 
+43.152.65.112 aws-na.intlgame.com 
+34.104.32.16 cloud.nikke-kr.com 
+</code>
+</pre>
+<!--Waline 开始-->
+<div id="waline"></div>
+  <script type="module">
+    import { init } from '/waline/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://waline.pzwboy.top',
+    });
+  </script>
+<!--Waline 结束-->	
+<!-- Waline 样式 开始 -->
+  <link rel="stylesheet" href="/waline/waline.css"/>
+<!-- Waline 样式 结束 -->
+	</div>
+	  <script src="/js/mdui.js"></script>
+	<footer  class="container p-typo mdui-container mdui-typo">
+    <br><p style="text-align:center;" class="copyright">&copy; 2020-<span id="current-year">
+	<script>document.getElementById("current-year").innerHTML=(new Date).getFullYear()</script>
+	Pzwboy.</p><br>
+	</footer>
+  </body>
+</html>
